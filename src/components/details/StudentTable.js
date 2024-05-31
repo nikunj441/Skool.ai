@@ -92,7 +92,7 @@ function StudentTable({ post }) {
   useEffect(() => {
     const fetchStudentData = async () => {
       try {
-        const response = await fetch(`https://server-mjj8.onrender.com/getStudents?class=${post.categories}`);
+        const response = await fetch(`https://skool-ai-8nbf.onrender.com/getStudents?class=${post.categories}`);
         console.log(post.categories);
         if (response.ok) {
           const data = await response.json();

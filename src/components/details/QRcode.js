@@ -12,7 +12,7 @@ const QRcode = ({ onClose }) => {
 
 const fetchQRCode = async () => {
   try {
-    const response = await fetch(`https://server-mjj8.onrender.com/getQR`);
+    const response = await fetch(`https://skool-ai-8nbf.onrender.com/getQR`);
     const url = await response.text(); // Get response as text
     setQRCodeURL(url);
   } catch (error) {
