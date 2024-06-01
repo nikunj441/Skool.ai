@@ -78,7 +78,7 @@ const Header = () => {
         formData.append('option', selectedOption);
 
         try {
-            const response = await fetch('https://skoolai-server.onrender.com/upload', {
+            const response = await fetch('https://skool-ai-8nbf.onrender.com/upload', {
                 method: 'POST',
                 body: formData,
             });
